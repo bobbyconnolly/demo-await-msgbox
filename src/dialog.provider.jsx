@@ -5,7 +5,7 @@ import { useDialogStore } from "./dialog.store"
 import "./dialog.styles.css"
 
 export const DialogProvider = (props) => {
-    const { isOpen, type, title, content , close } = useDialogStore() // prettier-ignore
+    const { isOpen, type, title, content, close } = useDialogStore() 
 
     // NOTE: We only expose the msgBox and msgBoxYN functions to the rest of the app
     return (
